@@ -1,4 +1,4 @@
-# Lumagdazz FB Share Tool
+# KRISANTO FB Share Tool
 
 A web application for automating Facebook post sharing with anti-spam protection.
 
@@ -54,7 +54,7 @@ http://127.0.0.1:5000
 To obtain your Facebook cookies and access token, you can use the [Get Token Cookie](https://chromewebstore.google.com/detail/get-token-cookie/naciaagbkifhpnoodlkhbejjldaiffcm) Chrome extension. Follow the instructions provided in the extension to retrieve the necessary credentials.
 
 
-## Usage
+## KRISANTO FB SHARE
 
 1. Log in with your Facebook cookies and access token
 2. Enter the post link you want to share
@@ -74,6 +74,6 @@ You can configure the following settings:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Disclaimer
+## KRISANTO FB SHARE
 
 This tool is for educational purposes only. Use at your own risk. The developers are not responsible for any account restrictions or bans resulting from the use of this tool.
