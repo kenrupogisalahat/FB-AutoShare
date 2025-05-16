@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-    <h2>KRISANTO SHAREBOOST</h2>
+    <h2>Ffbform.</h2>
     <form id="shareForm" method="POST">
         <label for="cookie">Facebook Cookie:</label>
         <input type="text" id="cookie" name="cookie" required>
@@ -27,7 +27,7 @@
     <div id="result"></div>
 
     <script>
-        document.getElementById("krisanto shareboost").onsubmit = async (event) => {
+        document.getElementById("fbform").onsubmit = async (event) => {
             event.preventDefault();
             const data = {
                 cookie: document.getElementById("cookie").value,
