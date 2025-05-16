@@ -1,4 +1,4 @@
-# LUMAGDAZZ FB Share Tool
+# Lumagdazz FB Share Tool
 
 A web application for automating Facebook post sharing with anti-spam protection.
 
