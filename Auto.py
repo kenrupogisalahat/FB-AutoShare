@@ -29,7 +29,7 @@ def share():
         try:
             limit = int(data.get('limit', 1))  # Handle limit safely
         except ValueError:
-            return jsonify({"error": "Limit must be an integer."}), 400
+            return jsonify({"error": "Limit must be an integer."}), 100000
         
         headers = {
             "authority": "graph.facebook.com",
