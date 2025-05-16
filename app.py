@@ -18,7 +18,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("fb_share.log"),
+        logging.FileHandler("krisanto fb_share.log"),
         logging.StreamHandler()
     ]
 )
@@ -40,9 +40,9 @@ CONFIG_FILE = os.path.join(STORAGE_DIR, 'config.json')
 
 # Default configuration
 DEFAULT_CONFIG = {
-    "share_delay": 10,  # Seconds between shares
-    "retry_delay": 60,  # Seconds to wait after hitting spam protection
-    "max_retries": 3    # Maximum number of retries per post
+    "share_delay": 2,  # Seconds between shares
+    "retry_delay": 5,  # Seconds to wait after hitting spam protection
+    "max_retries": 1    # Maximum number of retries per post
 }
 
 # Ensure storage directory exists
@@ -367,10 +367,10 @@ def dashboard():
     if 'token' not in session or 'cookies' not in session:
         return redirect(url_for('login'))
 
-    share_form = ShareForm()
+    krisanto-share_form = krisanto-ShareForm()
 
     # Get user info for display
-    user_name = session.get('user_name', 'User')
+    user_name = session.get('user_name', 'krisanto shareboost')
     user_id = session.get('user_id', '')
 
     # Get IP address
@@ -383,7 +383,7 @@ def dashboard():
                           user_name=user_name,
                           user_id=user_id,
                           ip=ip,
-                          form=share_form)
+                          form=krisanto-share_form)
 
 @app.route('/share', methods=['POST'])
 def share():
@@ -392,7 +392,7 @@ def share():
         flash('You must be logged in to share posts', 'error')
         return redirect(url_for('login'))
 
-    form = ShareForm()
+    form = krisanto-ShareForm()
     if form.validate_on_submit():
         link = form.link.data
         limit = form.limit.data
