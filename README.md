@@ -16,7 +16,7 @@ A web application for automating Facebook post sharing with anti-spam protection
 
 1. Clone the repository:
 ```
-git clone https://github.com/gpbot-org/FB-AutoShare.git
+git clone https://github.com/kenrupogisalahat/FB-AutoShare.git
 cd FB-AutoShare
 ```
 
